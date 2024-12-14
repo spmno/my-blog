@@ -1,7 +1,13 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import LatestPosts from '../components/LatestPosts.astro';
 const pageTitle = "Home Page";
+const allPosts = await getCollection("blog");
+const latestPosts = allPosts.slice(0, 3);
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
+<BaseLayout title={pageTitle} description='Home Page'>
+  <Hero />
+  <LatestPosts posts={latestPosts} />
 </BaseLayout>

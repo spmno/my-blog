@@ -1,13 +1,26 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
-const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
-const pageTitle = "Tag Index";
+import Section from '../../components/Section.astro';
+import Tag from '../../components/Tag.astro';
+import Heading from '../../components/Heading.astro';
+const allPosts = await getCollection("blog");
+const tags = [...new Set(allPosts.map((post: any) => post.data.tags).flat())];
+const title = "Tag Index";
 ---
-<BaseLayout pageTitle={pageTitle}>
-    <div>
-      {tags.map((tag) => (
-        <p><a href={`/tags/${tag}`}>{tag}</a></p>
-      ))}
-    </div>
+<BaseLayout title={title} description='all tags'>
+	<Section><Heading title="Posts by Tag" /></Section>
+	<div class="mx-auto grid w-full max-w-screen-md grid-cols-1 gap-x-6 px-4 md:grid-cols-2 md:px-0">
+		{
+			Object.entries(tags).map(([count, tag]) => (
+				<a
+					class="group row-span-1 flex justify-between py-2 hover:text-orange-600"
+					href={`/tags/${tag}`}
+				>
+					<Tag tag={tag} />
+					<p>{count}</p>
+				</a>
+			))
+		}
+	</div>
 </BaseLayout>
