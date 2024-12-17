@@ -47,7 +47,7 @@ src/pages/posts/***.md
 ### 注册账号
 [vercel.com](https://vercel.com) 按照步骤来就可以
 ### 导入Github上的Blog工程
-![alt text](../images/import_github.png)
+![alt text](/assets/images/import_github.png)
 ### 布置
 点击布置Button
 ### 配置域名
