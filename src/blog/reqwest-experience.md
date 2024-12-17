@@ -12,7 +12,7 @@ tags: ["reqwest", "rust", "博客", "https证书"]
 
 不用验证SSL本地的证书
 
-｀｀｀
+```
   use reqwest::{Client, Result};
 
 #[tokio::main]
@@ -30,7 +30,7 @@ async fn main() -> Result<()> {
     println!("result is {:?}",result);
     Ok(())
 }
-｀｀｀
+```
 
 打出更多的信息用 Debug Trait
 
