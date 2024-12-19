@@ -5,6 +5,7 @@ import Hero from '../components/Hero.astro';
 import LatestPosts from '../components/LatestPosts.astro';
 const pageTitle = "Home Page";
 const allPosts = await getCollection("blog");
+allPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 const latestPosts = allPosts.slice(0, 3);
 ---
 <BaseLayout title={pageTitle} description='Home Page'>

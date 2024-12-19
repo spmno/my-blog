@@ -6,6 +6,7 @@ import Heading from '../components/Heading.astro';
 import Card from '../components/Card.astro';
 const pageTitle = "Blogs";
 const allPosts = await getCollection("blog");
+allPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
 
 <BaseLayout title={pageTitle} description="blog">
