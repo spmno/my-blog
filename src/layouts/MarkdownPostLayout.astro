@@ -4,7 +4,7 @@ import PostContent from '../components/PostContent.astro';
 import PostHeader from '../components/PostHeader.astro';
 const { frontmatter } = Astro.props;
 ---
-<BaseLayout title=frontmatter.title description=frontmatter.description >
+<BaseLayout title={frontmatter.title} description={frontmatter.description} >
     <div class="mx-auto w-full max-w-screen-md">
 		<PostHeader
 			title={frontmatter.title}
