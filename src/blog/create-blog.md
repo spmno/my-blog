@@ -5,8 +5,8 @@ pubDate: 2024-08-20
 author: 'sunqp'
 minRead: 6 min read
 image:
-    url: '/assets/images/image-post4.jpeg'
-    alt: 'Image post 4'
+    url: ''
+    alt: ''
 tags: ["astro", "blogging", "博客"]
 ---
 

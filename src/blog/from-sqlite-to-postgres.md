@@ -5,8 +5,8 @@ pubDate: 2024-12-18
 author: 'sunqp'
 minRead: 6 min read
 image:
-    url: '/assets/images/image-post4.jpeg'
-    alt: 'Image post 4'
+    url: ''
+    alt: ''
 tags: ["actix", "actix-web", "sqlite", "postgres"]
 ---
 

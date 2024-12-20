@@ -5,8 +5,8 @@ pubDate: 2024-12-02
 author: 'sunqp'
 minRead: 4 min read
 image:
-    url: '/assets/images/image-post4.jpeg'
-    alt: 'Image post 4'
+    url: ''
+    alt: ''
 tags: ["ubuntu", "font", "中文显示"]
 ---
 
