@@ -16,9 +16,11 @@ tags: ["astro", "blogging", "博客", "排序", "sort"]
 2. 按照创建时间排序，获取排序后的blog列表。
 
 ### 代码实现：
-将获取的allPosts按照时间排序。
+将获取的allPosts按照时间排序。   
+</br>
 ```js
 const allPosts = await getCollection("blog");
 allPosts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
-```
+```  
+</br>
 仅一行代码就实现了排序功能。
