@@ -42,6 +42,17 @@ include_directories(
 编译，正常出错，提示找不到absl库相关的文件。
 去webrtc库的文件夹中找到absl库的文件夹，然后拷贝到我们的项目中。在根目录下的subprjects文件夹中。   
 再编译，正常的话会通过。
+  
+补充: 运行时发现找不到libwebrtc-audio-processing-2.so，原因是我们把库改名了，再复制一个库，改名为libwebrtc-audio-processing-2.so，就可以了。
+另外，还会找不到libc++_shared.so，在build.gradle文件中添加下面的代码。  
+```
+        externalNativeBuild {
+            cmake {
+                cppFlags ''
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+```
 
 最后上链接：https://github.com/spmno/WebrtcTest
 
