@@ -11,7 +11,7 @@ const { posts } = Astro.props;
 		<p class="text-xl font-bold">Latest Posts</p>
 		<a href="/blog" class="underline hover:text-orange-600">all posts →</a>
 	</div>
-	<div class="grid grid-rows-2 grid-cols-3 gap-4">
+	<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 		{
 			posts.slice(0, 6).map((post: any) => (
 				<div>
