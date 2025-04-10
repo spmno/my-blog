@@ -1,5 +1,5 @@
 ---
-title: actix数据库从sqlite到postgres
+title: Actix框架：从SQLite迁移到PostgreSQL的完整指南
 description: 用actix框架做的服务，从sqlite迁移到postgres
 pubDate: 2024-12-18
 author: 'sunqp'

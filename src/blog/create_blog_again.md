@@ -1,5 +1,5 @@
 ---
-title: Astro从头搭建个人博客
+title: 从零开始使用Astro构建个人博客：详细步骤指南
 description: 通过Astro搭建个人博客，第一次不同，这次没有用模板，而是从头开始搭建。
 pubDate: 2024-12-21
 author: 'sunqp'

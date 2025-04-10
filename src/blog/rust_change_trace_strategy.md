@@ -1,5 +1,5 @@
 ---
-title: rust修改默认的trace策略
+title: Rust日志优化：实现每日滚动记录与文件大小限制
 description: rust修改默认的trace策略，限制文件输出的大小，并且规定每天输出
 pubDate: 2024-12-20
 author: 'sunqp'
@@ -38,4 +38,3 @@ let (non_blocking_appender, _guard) = non_blocking(file_appender);
 ```  
 </br>
 问题解决。
-

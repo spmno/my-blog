@@ -1,5 +1,5 @@
 ---
-title: 在 Tauri 上使用 Next.js 和 shadcn 构建现代化桌面应用
+title: 使用Tauri+Next.js+shadcn构建高性能桌面应用
 description: 详细指南：使用Tauri+Next.js+shadcn构建高性能桌面应用，包含项目配置、组件集成与开发流程
 pubDate: 2025-03-30
 author: 'sunqp'

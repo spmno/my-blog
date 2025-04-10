@@ -1,5 +1,5 @@
 ---
-title: ubuntu 24.04 字体相关
+title: 解决Ubuntu 24.04字体安装问题与中文显示优化方案
 description: 解决Ubuntu 24.04系统中字体安装问题与中文显示优化方案
 pubDate: 2024-12-02
 author: 'sunqp'

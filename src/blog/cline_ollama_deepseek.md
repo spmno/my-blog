@@ -1,5 +1,5 @@
 ---
-title: 使用Cline + Ollama + Deepseek R1构建本地AI开发环境  
+title: 搭建高效本地AI开发环境：Cline、Ollama与Deepseek R1完全指南
 description: 本指南介绍如何使用Cline + Ollama + Deepseek R1建立高效的本地AI开发环境
 pubDate: 2025-02-07
 author: 'sunqp'

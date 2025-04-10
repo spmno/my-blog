@@ -1,5 +1,5 @@
 ---
-title: DrawIO Ubuntu无法运行问题解决
+title: 解决DrawIO在Ubuntu系统中的运行问题：详细故障排除指南
 description: 解决在Ubuntu上安装DrawIO deb包后无法启动的问题
 pubDate: 2025-01-20
 author: 'sunqp'
