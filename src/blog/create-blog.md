@@ -1,6 +1,6 @@
 ---
 title: Astro搭建个人博客
-description: 通过Astro搭建个人博客
+description: 使用Astro框架快速搭建个人博客，包含详细步骤指南和Vercel部署说明
 pubDate: 2024-08-20
 author: 'sunqp'
 minRead: 6 min read

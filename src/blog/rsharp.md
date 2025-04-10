@@ -1,6 +1,6 @@
 ---
 title: Rust中r#的含义
-description: Rust中r#的含义, 两种情况用到r#, 字符串字面量中包含特殊字符
+description: 探索Rust中的r#语法：详细解析其用途与实际应用场景
 pubDate: 2024-08-20
 author: 'sunqp'
 minRead: 4 min read
