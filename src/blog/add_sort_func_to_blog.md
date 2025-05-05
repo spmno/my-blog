@@ -1,5 +1,5 @@
 ---
-title: astro给BLOG添加排序功能
+title: 使用Astro为博客添加排序功能：按时间组织文章的完整指南
 description: 给BLOG添加排序功能，实现按照时间排序
 pubDate: 2024-12-19
 author: 'sunqp'

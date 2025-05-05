@@ -1,6 +1,6 @@
 ---
-title: reqwest 一些经验
-description: reqwest 一些经验
+title: 使用Reqwest库的最佳实践与解决方案：提升Rust HTTP请求效率
+description: 使用reqwest库的最佳实践与常见问题解决方案，提升Rust HTTP请求处理效率
 pubDate: 2024-09-23
 author: 'sunqp'
 minRead: 4 min read

@@ -1,5 +1,5 @@
 ---
-title: Android平台编译webrtc源码
+title: 在Android平台上编译WebRTC源码：详细步骤与注意事项
 description: Android平台编译webrtc源码，记录下过程。
 pubDate: 2025-01-01
 author: 'sunqp'
@@ -78,4 +78,3 @@ ninja -C build install
 ```
 会在build目录下生成install目录，里面就是编译好的so文件。  
 Done。
-

@@ -1,6 +1,6 @@
 ---
 title: Android平台使用webrtc库
-description: Android平台使用webrtc库，接着上一篇的webrtc库的编译。
+description: 深入指南：在Android平台上集成和使用WebRTC库，包括API详解与实践案例
 pubDate: 2025-01-03
 author: 'sunqp'
 minRead: 6 min read
@@ -55,4 +55,3 @@ include_directories(
 ```
 
 最后上链接：https://github.com/spmno/WebrtcTest
-

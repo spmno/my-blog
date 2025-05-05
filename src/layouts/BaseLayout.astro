@@ -3,11 +3,19 @@ import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 export interface Props {
 	title: string;
-	description: string;
+	description?: string; // Make description optional
 }
 const {
-	title, description 
-} = Astro.props 
+	title, description: rawDescription 
+} = Astro.props;
+
+// Define default description
+const defaultDescription = "Sunqp的技术博客，分享关于Web开发、Rust、AI等领域的实践经验与教程";
+
+// Create sanitized description
+const description = rawDescription && rawDescription.length >= 50 && rawDescription.length <= 160
+	? rawDescription
+	: `${title} - ${defaultDescription}`;
 ---
 
 
@@ -16,7 +24,7 @@ const {
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{title}</title>
-		<meta name="description" content={description} />
+		<meta name="description" content={description.substring(0, 160)} />
 		<meta name="author" content="sunqp" />
 
 		<link rel="sitemap" href="/sitemap-index.xml" />

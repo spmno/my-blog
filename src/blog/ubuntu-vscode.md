@@ -1,6 +1,6 @@
 ---
 title: 在Ubuntu下安装VsCode
-description: snap商店带的vscode，不好用。需要加一下microsoft的apt list去安装
+description: 解决Ubuntu系统中VsCode中文输入问题的详细指南，通过添加Microsoft官方APT源来安装完整版VsCode
 pubDate: 2024-09-15
 author: 'sunqp'
 minRead: 4 min read
