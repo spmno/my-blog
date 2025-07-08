@@ -44,7 +44,7 @@ cd my-tauri-next-app
 由于我们的目标是使用 Next.js 开发，因此需要删除 `vite` 和 `react` 相关的文件和配置。具体操作如下：
 
 1. 删除 `src` 目录和 `vite.config.ts` 文件。
-2. 使用以下命令创建一个新的 Next.js 项目：
+2. 使用以下命令创建一个新的 Next.js 项目（在另处一个目录创建copy过来）：
 
 ```bash
 npx create-next-app@latest .
@@ -53,7 +53,7 @@ npx create-next-app@latest .
 这将生成一个标准的 Next.js 项目结构。
 
 3. 合并 `package.json` 文件：
-   - 将原有 Tauri 项目的依赖项与新生成的 Next.js 项目依赖项合并。
+   - 将原有 Tauri 项目的依赖项与新生成的 Next.js 项目依赖项合并，两个项目的单独项目都保留。dependencies和devDependencies都保留。
    - 确保脚本部分包含以下内容：
 
 ```json
