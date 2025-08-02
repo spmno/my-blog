@@ -56,3 +56,5 @@ tags: ["AI开发", "Kimi K2", "VSCode配置", "大模型", "编程效率"]
 ![alt text](/assets/images/vscode-k2.jpg)
 
 最后简单的测试了一个，包含前端后端一个简单的后台，大约用了1小时左右，花费6块钱。
+
+更新：目前新版本的cline已经支持moonshot的k2模型了。直接选择使用就可以了。
